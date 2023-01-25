@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgba(198, 89, 140, 0.775);
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(198, 89, 140, 0.775);
+    min-height: 150px;
+}
+.content {
+    background-color: rgba(202, 113, 184, 0.633);
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgba(198, 89, 140, 0.775);
+    min-height: 150px;
+}
+table thead th {
+    background-color: rgba(198, 89, 140, 0.775);
+}
+table tbody td {
+    background-color: rgba(214, 165, 188, 0.775);
+}
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <h1>Menu</h1>
+            <ul>
+                <li><a href="index.html">Página inicial</a></li>
+                <li><a href="menu.html">Sobre nós </a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="https://thumbs.dreamstime.com/b/c%C3%A3es-e-gatos-de-apar%C3%AAncia-curiosa-ra%C3%A7as-diferentes-juntos-em-fundo-azul-169807295.jpg" height="200" width="990"/>
+            </div>
+    
+            <div class="content">
+                <h2>Horários de atendimento</h2>
+                <table border="1" width="450">
+                <thead>
+                        <tr>
+                        <th>Serviços</th>
+                        <th>Segunda à Sexta</th>
+                        <th>Sábados</th>
+                        <th>Feriados</th>
+                        </tr>
+                </thead>
+                 <tbody>
+                        <tr>
+                            <td>Castração</td>
+                            <td>08h - 19h</td>
+                            <td>08h - 14h</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>Nefrologia</td>
+                            <td>08h - 19h</td>
+                            <td>08h - 14h</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>Neurologia</td>
+                            <td>08h - 19h</td>
+                            <td>08h - 14h</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>Clínica de felinos</td>
+                            <td>08h - 19h</td>
+                            <td>08h - 14h</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>Ortopedia</td>
+                            <td>08h - 19h</td>
+                            <td>08h - 14h</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>Laboratório</td>
+                            <td>08h - 19h</td>
+                            <td>08h - 14h</td>
+                            <td>08h - 14h</td>
+                        </tr>
+                        <tr>
+                            <td>Cirurgia</td>
+                            <td>08h - 19h</td>
+                            <td>08h - 14h</td>
+                            <td>08h - 14h</td>
+                        </tr>
+                        <tr>
+                            <td>Urgência e emergência</td>
+                            <td>24h</td>
+                            <td>24h</td>
+                            <td>24h</td>
+                        </tr>
+                </tbody>
+                </table>
+    
+            <div class="footer">
+                <h2>PRECISA DE SUPORTE?</h2>
+                <p>Email: clinicavet@gmail.com</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
